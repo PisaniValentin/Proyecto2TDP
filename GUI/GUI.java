@@ -193,7 +193,7 @@ public class GUI extends JFrame {
 		botones_numeros = new JButton[9];
 		for(int i=0;i<botones_numeros.length;i++) {
 			botones_numeros[i]=new JButton();
-			botones_numeros[i].setActionCommand(Integer.toString(i));
+			botones_numeros[i].setActionCommand(Integer.toString(i+1));
 			botones_numeros[i].addActionListener(new OyenteBotonImagenes());
 			botones_numeros[i].setEnabled(false);
 			botones.add(botones_numeros[i]);
